@@ -22,27 +22,27 @@ Open CMD Line or Powershell and Run as Administrator
 5. Deleting a file: 
  * del test.txt
 
-6.Viewing all the processes running:
+6. Viewing all the processes running:
  * tasklist
 
-7.Killing a running process:
+7. Killing a running process:
 * taskkill /PID /T
 example (TASKKILL /PID 1230 /PID 1241 /PID 1253 /T)
 
-8.View the routes used:
+8. View the routes used:
   * route PRINT
 
-9.Delete the routes used:
+9. Delete the routes used:
   * route /f
 	
-10.Trace route:
+10. Trace route:
   * tracert -h 100 google.com
 	* tracert -j google.com 
 
 11. IP configuration view:
   * ipconfig
 
-12.Release IP configuration:
+12. Release IP configuration:
   * ipconfig /release
 
 13. Renew IP configuration:
@@ -66,35 +66,35 @@ netsh int ip reset
 18. Check for updates:
   * UsoClient StartScan
 
-19.start downloading the updates:
+19. Start downloading the updates:
   * UsoClient StartDownload
 
-20.Start installing the downloaded updates:
+20. Start installing the downloaded updates:
   * UsoClient StartInstall
 
-21.Restart your device after installing the updates:
+21. Restart your device after installing the updates:
   * UsoClient RestartDevice
 
-22.Check, Download and Install Updates:
+22. Check, Download and Install Updates:
   * UsoClient ScanInstallWait
 
 NB! For older Windows versions below Windows 10:
 
   * wuauclt /detectnow /updatenow
 
-23.Ping some stuff on the internet.
+23. Ping some stuff on the internet.
   * ping google.com
 
-24.Restart your Windows PC: 
+24. Restart your Windows PC: 
   * shutdown /r 
 
-25.Shut Down your Windows PC:
+25. Shut Down your Windows PC:
   * shutdown /s 
 
-26.Log off your computer. 
+26. Log off your computer. 
   * shutdown /l
 
-27.Abort shutdown before timeout 
+27. Abort shutdown before timeout 
   * shutdown /a 
-Have fun and a tip if you see a command in cmd prompt or bash terminal just use /? near the command. 
+Have fun!!! If you see a command in cmd prompt or bash terminal just use /? near the command. 
 #gimalaji_blake
