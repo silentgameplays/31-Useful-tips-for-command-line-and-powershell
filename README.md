@@ -19,7 +19,7 @@ Open CMD Line or Powershell and Run as Administrator
 
 6. Changing to directory :
 
- * cd test
+ * cd c:\ test
 
 7. Create a file:
  * type nul> test.txt
