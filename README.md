@@ -137,6 +137,15 @@ NB! For older Windows versions below Windows 10:
 31. Abort shutdown before timeout 
   * shutdown /a 
 
+FUN BONUS:
 
+Enable Telnet:
+  
+  * dism /online /Enable-Feature /FeatureName:TelnetClient
+
+Watch an ASCII version of the Star Wars movie:
+
+  * telnet towel.blinkenlights.nl
+ 
 Have fun!!! If you see a command in cmd prompt or bash terminal just use /? near the command. 
 #gimalaji_blake
