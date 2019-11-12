@@ -67,6 +67,7 @@ Open CMD Line or Powershell and Run as Administrator
 15. IP configuration view:
   
   * ipconfig
+  * ipconfig /all
 
 16. Release IP configuration:
   * ipconfig /release
